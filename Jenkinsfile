@@ -5,7 +5,7 @@ pipeline{
         maven 'Maven3'
     }
     environment {
-    APP_NAME = "Manoj-CI-CD-END-to-END"
+    APP_NAME = "manoj-end-to-end-ci-cd-pipeline"
     RELEASE = "1.0.0"
     DOCKER_USER = "manubs"
     DOCKER_PASS = 'dockerhub'
