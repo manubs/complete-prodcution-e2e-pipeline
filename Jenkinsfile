@@ -28,7 +28,7 @@ pipeline{
             }
 
         }
-    }
+    
 
         stage("Build Application"){
             steps {
@@ -43,6 +43,7 @@ pipeline{
             }
 
         }
+    }
         
 
 }
