@@ -15,12 +15,12 @@ pipeline{
     }
     
     stages{
-        stage("Cleanup Workspace"){
+/*         stage("Cleanup Workspace"){
             steps {
                 cleanWs()
             }
 
-        }
+        } */
     
         stage("Checkout from SCM"){
             steps {
@@ -113,7 +113,7 @@ pipeline{
 
         }
 
-    }
+    }   
 
     post {
         failure {
